@@ -6,7 +6,7 @@ Container com sysbench e stress para teste de performace dos hosts docker.
 
 ##### Run
 
-docker run -it --rm docker pull marlonreck/sysbench-stress /bin/bash
+docker run -it --rm marlonreck/sysbench-stress /bin/bash
 
     sysbench --test=cpu --cpu-max-prime=20000 run
     
